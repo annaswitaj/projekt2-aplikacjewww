@@ -1,0 +1,27 @@
+html *{
+    font-family: 'Patrick Hand', cursive;
+}
+p{
+    font-size: 1.5rem;
+        padding: 2rem;
+    -webkit-column-count: 3;
+        
+       -moz-column-count: 3;
+        
+            column-count: 3s;
+    -webkit-column-rule:1px solid #000000;
+       -moz-column-rule:1px solid #000000;
+            column-rule:1px solid #000000;
+    }
+a.navbar-brand.nav-item.nav-link.orange{
+    color: orange;
+}
+  
+@media  (max-width: 900px) {
+    nav{
+        display: none;
+    }
+    img{
+     max-width: 80%;
+    }
+ }
